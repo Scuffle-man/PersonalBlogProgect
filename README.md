@@ -14,7 +14,7 @@
 
 ## API 文档
 
-启动服务后访问 `http://localhost:8080/swagger/index.html` 查看 API 文档。
+启动服务后访问 `http://localhost:8080/swagger/index.html` 查看 API 文档。(并没有用)
 
 ## 数据库设计
 
