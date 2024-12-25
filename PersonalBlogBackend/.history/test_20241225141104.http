@@ -1,0 +1,35 @@
+### 健康检查
+GET http://localhost:8080/health
+
+### 注册用户
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+    "username": "testuser",
+    "email": "test@example.com",
+    "password": "123456"
+}
+
+### 用户登录
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+    "username": "testuser",
+    "password": "123456"
+}
+
+### 创建文章
+POST http://localhost:8080/api/articles
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    "title": "测试文章",
+    "content": "这是一篇测试文章的内容"
+}
+
+### 获取文章列表
+GET http://localhost:8080/api/articles
+Authorization: Bearer {{token}} 

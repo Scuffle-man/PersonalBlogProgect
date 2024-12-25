@@ -1,0 +1,3 @@
+vue create personal-blog-frontend
+cd personal-blog-frontend
+npm install @vueuse/core axios vue-router pinia sass @headlessui/vue @heroicons/vue gsap 

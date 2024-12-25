@@ -1,0 +1,21 @@
+PersonalBlogBackend/
+├── cmd/
+│   └── server/
+│       └── main.go
+├── internal/
+│   ├── api/
+│   │   ├── handlers/
+│   │   ├── middleware/
+│   │   └── routes/
+│   ├── config/
+│   ├── models/
+│   ├── repository/
+│   └── service/
+├── pkg/
+│   ├── auth/
+│   └── utils/
+├── docs/
+├── tests/
+├── Dockerfile
+├── go.mod
+└── README.md
